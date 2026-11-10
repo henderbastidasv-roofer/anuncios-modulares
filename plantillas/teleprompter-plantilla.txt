@@ -1,0 +1,34 @@
+ANUNCIOS MODULARES · TELEPROMPTER
+(Antes de cada línea: di el código, palmada suave lejos del micrófono, espera 2 segundos y di la línea DOS veces.)
+
+===== BLOQUE 1 · GANCHOS (primer plano) =====
+
+H-G01. [tu gancho 1]
+
+H-G02. [tu gancho 2]
+
+H-G03. [tu gancho 3]
+
+===== BLOQUE 2 · CUERPOS (plano medio) =====
+
+H-C01. [tu cuerpo 1]
+
+H-C02. [tu cuerpo 2]
+
+H-C03. [tu cuerpo 3]
+
+H-C04. [tu cuerpo 4]
+
+===== BLOQUE 3 · CIERRES (primer plano) =====
+
+H-CTA1. [tu cierre 1]
+
+H-CTA2. [tu cierre 2]
+
+===== BLOQUE 4 · OTRA CAMISA: REPITE LOS 3 GANCHOS (opcional) =====
+
+H-G11. [el mismo gancho 1]
+
+H-G12. [el mismo gancho 2]
+
+H-G13. [el mismo gancho 3]
