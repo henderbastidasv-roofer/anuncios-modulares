@@ -43,10 +43,12 @@ Mi negocio: [qué hace tu compañía, en qué ciudad, para quién y cuál es tu 
 A dónde mando a la gente: [tu página, tu formulario o tu link].
 
 Reglas del mensaje:
+
 - [De qué sí quieres hablar y de qué no.]
 - No prometer resultados ni inventar números, precios ni testimonios.
 
 Hazme el guion de piezas:
+
 - 3 ganchos, 4 cuerpos y 2 cierres, cada uno con su código (H-G01, H-C01, H-CTA1).
 - Ganchos de 2 a 4 segundos, cuerpos de 4 a 8 y cierres de 3 a 5.
 - Cada cuerpo se tiene que entender solo: nada de "y además" ni "como te dije".
@@ -57,6 +59,7 @@ Guárdalo en guion-piezas.md y enséñamelo para aprobarlo.
 ```
 
 **Antes de aprobarlo, revísalo:**
+
 1. Cada cuerpo se entiende solo.
 2. No dice nada que no ofreces.
 3. No promete resultados.
@@ -87,10 +90,12 @@ El bloque con otra camisa es opcional, pero te da el doble de ganchos sin escrib
 ## Paso 3 · Grabar
 
 **Antes de empezar:**
+
 - Micrófono en **mono** y el medidor en amarillo (entre −12 y −6 dB).
 - Graba **10 segundos de prueba** y escúchalos: que se oiga de los dos lados y que no truene.
 
 **Por cada pieza, siempre igual:**
+
 1. Di el **código** en voz alta ("H-G01").
 2. Da una **palmada suave**, lejos del micrófono.
 3. Espera **2 segundos**.
@@ -101,6 +106,7 @@ El código y la palmada son para la máquina: Claude busca el código y la palma
 **Cuando termines:** pasa el video **original** a la carpeta de tus anuncios, por cable, Drive o USB. **Nunca por WhatsApp**, porque lo comprime.
 
 **Lo que nos pasó a nosotros (y no pasó nada):**
+
 - El micrófono quedó grabando en un solo canal. Claude usó ese canal en mono.
 - Dije "H-C01" cuando era "H-C21". Claude encontró la pieza por la frase.
 - No grabé los ganchos con otra camisa. Igual salieron los 3 anuncios de cada guion.
@@ -122,6 +128,7 @@ Claude Code transcribe tu grabación con **Whisper**, en tu computadora y gratis
 **Prompt 3:**
 ```
 Ya grabé. El video está en [la ruta del archivo, o "en esta carpeta"].
+
 1. Instala lo que haga falta para transcribir con Whisper en mi computadora (gratis, sin mandar el audio a ningún lado). Revisa en qué canal de audio está mi voz.
 2. Parte el audio en los silencios y transcribe cada tramo por separado, para que no se pierdan las repeticiones.
 3. Encuentra cada código del guion. Si dije un código mal, búscalo por la frase.
@@ -140,6 +147,7 @@ Guárdame una "Lista de tomas.md" con el segundo de cada toma, lo que dice y cua
 **Prompt 4:**
 ```
 Arma los 3 anuncios de las recetas del guion-piezas.md, cada uno en 9:16 (Reels y Stories) y en 4:5 (Feed):
+
 - Cortes pegados a la voz: mi cara solo sale mientras hablo.
 - Voz limpia y pareja: que todos los anuncios suenen al mismo volumen.
 - Subtítulos de 2 o 3 palabras, con la palabra clave resaltada.
@@ -166,6 +174,7 @@ Antes de mandármelos, hazme una hoja de cuadros de cada anuncio: el primer y el
 ```
 
 **Tú revisas:**
+
 - Míralos en el teléfono, **con y sin sonido**.
 - Compara lo que dicen con tu oferta real.
 - **Nada se publica sin tu OK.**
@@ -185,6 +194,7 @@ Después, en Claude Code, escribe `/mcp`, escoge *meta-ads* → *Authenticate* e
 **Prompt 6:**
 ```
 Sube los anuncios aprobados a mi cuenta de Meta [nombre de la cuenta], TODO EN PAUSA:
+
 - Una campaña de [tráfico a mi página / clientes potenciales] con un conjunto de anuncios por guion.
 - Un anuncio por formato: el 9:16 para Reels y Stories, y el 4:5 para el Feed.
 - Escribe el texto y un titular por anuncio, con el botón [Más información] a [mi link]. Enséñamelos antes de subirlos.
@@ -207,6 +217,7 @@ Dime cómo van los anuncios de [nombre de la campaña] en los últimos [7] días
 ```
 
 **Qué cambias según lo que veas:**
+
 - **Se detienen pero no dan clic:** cambia los cuerpos o el cierre.
 - **Nadie se detiene:** prueba otro gancho con los mismos cuerpos.
 - **Uno gana:** haz 3 versiones nuevas cambiando solo el gancho.
@@ -221,6 +232,7 @@ Como ya tienes todas las piezas, no vuelves a grabar.
 ---
 
 ## Tu tarea
+
 1. Copia el prompt 1 y cambia el párrafo de tu negocio.
 2. Aprueba tu guion y grábalo con el protocolo.
 3. Pídele a Claude Code tus primeros 3 anuncios.
