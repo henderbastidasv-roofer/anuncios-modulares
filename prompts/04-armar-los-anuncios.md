@@ -3,7 +3,7 @@
 Cópialo en Claude Code y cambia lo que va entre [corchetes]. Explicación completa en [GUIA.md](../GUIA.md).
 
 ```
-Arma los 3 anuncios de las recetas del guion-piezas.md, cada uno en 9:16 (Reels y Stories) y en 4:5 (Feed):
+Arma los 3 anuncios de las recetas del guion-piezas.md siguiendo el modelo de edición de anuncios-modulares/edicion/MODELO-DE-EDICION.md (si no lo tienes, descárgalo de https://github.com/henderbastidasv-roofer/anuncios-modulares). Cada anuncio en 9:16 (Reels y Stories) y en 4:5 (Feed):
 - Cortes pegados a la voz: mi cara solo sale mientras hablo.
 - Voz limpia y pareja: que todos los anuncios suenen al mismo volumen.
 - Subtítulos de 2 o 3 palabras, con la palabra clave resaltada.

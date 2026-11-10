@@ -43,12 +43,10 @@ Mi negocio: [qué hace tu compañía, en qué ciudad, para quién y cuál es tu 
 A dónde mando a la gente: [tu página, tu formulario o tu link].
 
 Reglas del mensaje:
-
 - [De qué sí quieres hablar y de qué no.]
 - No prometer resultados ni inventar números, precios ni testimonios.
 
 Hazme el guion de piezas:
-
 - 3 ganchos, 4 cuerpos y 2 cierres, cada uno con su código (H-G01, H-C01, H-CTA1).
 - Ganchos de 2 a 4 segundos, cuerpos de 4 a 8 y cierres de 3 a 5.
 - Cada cuerpo se tiene que entender solo: nada de "y además" ni "como te dije".
@@ -97,11 +95,16 @@ El bloque con otra camisa es opcional, pero te da el doble de ganchos sin escrib
 **Por cada pieza, siempre igual:**
 
 1. Di el **código** en voz alta ("H-G01").
-2. Da una **palmada suave**, lejos del micrófono.
-3. Espera **2 segundos**.
-4. Di la línea **dos veces**.
+2. Haz una **pausa de 2 segundos**.
+3. Di la línea **dos veces**.
 
-El código y la palmada son para la máquina: Claude busca el código y la palmada marca dónde empieza. La línea dos veces es para quedarte con la mejor.
+El código es para la máquina: Claude lo busca en el audio para saber dónde empieza cada pieza. La línea dos veces es para quedarte con la mejor.
+
+*La palmada es opcional.* Hay quien da una palmada suave después del código para separar las piezas. Yo no la recomiendo: con decir el código y hacer la pausa es suficiente.
+
+**El teleprompter:** muchos teléfonos ya traen uno, y si no, hay aplicaciones gratis. Pega ahí tu `teleprompter.txt` y lo vas leyendo mientras grabas. También puedes memorizar las líneas y grabarte con el teléfono en un trípode, o pedirle a alguien que te grabe.
+
+**Ponte creativo:** puedes grabar todo de un solo golpe, como yo, o grabar los ganchos en un lugar, los cuerpos en otro y los cierres en otro. Así los anuncios se ven más dinámicos.
 
 **Cuando termines:** pasa el video **original** a la carpeta de tus anuncios, por cable, Drive o USB. **Nunca por WhatsApp**, porque lo comprime.
 
@@ -115,7 +118,7 @@ El código y la palmada son para la máquina: Claude busca el código y la palma
 |---|---|
 | Audio en estéreo o saturado | Mono, medidor en amarillo y 10 s de prueba |
 | Improvisar y saltarse piezas | Seguir el teleprompter, pieza por pieza |
-| Hablar justo después de la palmada | Esperar los 2 segundos |
+| Hablar justo después del código | Esperar los 2 segundos |
 | Señalar cosas ("mira esto") | Decirlo completo; lo visual entra después |
 | Pasar el video por WhatsApp | Pasarlo por cable, Drive o USB |
 
@@ -133,7 +136,7 @@ Ya grabé. El video está en [la ruta del archivo, o "en esta carpeta"].
 2. Parte el audio en los silencios y transcribe cada tramo por separado, para que no se pierdan las repeticiones.
 3. Encuentra cada código del guion. Si dije un código mal, búscalo por la frase.
 4. De cada pieza, quédate con la última toma completa y sin trabarme.
-5. Córtala pegada a la voz: sin la palmada, sin respiraciones y sin pausas largas.
+5. Córtala pegada a la voz: sin el código, sin respiraciones y sin pausas largas.
 6. Vuelve a transcribir cada pieza cortada para confirmar que dice la frase completa.
 Guárdame una "Lista de tomas.md" con el segundo de cada toma, lo que dice y cualquier cosa rara que encuentres.
 ```
@@ -144,10 +147,11 @@ Guárdame una "Lista de tomas.md" con el segundo de cada toma, lo que dice y cua
 
 ## Paso 5 · Armar los anuncios
 
+Aquí te dejo **el modelo de edición que diseñamos** para los anuncios de ConstruIA: [`edicion/MODELO-DE-EDICION.md`](edicion/MODELO-DE-EDICION.md). Claude Code lo lee y edita tus anuncios en esa misma línea: cortes, voz, subtítulos, gráficos animados, música, la tarjeta final y la revisión.
+
 **Prompt 4:**
 ```
-Arma los 3 anuncios de las recetas del guion-piezas.md, cada uno en 9:16 (Reels y Stories) y en 4:5 (Feed):
-
+Arma los 3 anuncios de las recetas del guion-piezas.md siguiendo el modelo de edición de anuncios-modulares/edicion/MODELO-DE-EDICION.md (si no lo tienes, descárgalo de https://github.com/henderbastidasv-roofer/anuncios-modulares). Cada anuncio en 9:16 (Reels y Stories) y en 4:5 (Feed):
 - Cortes pegados a la voz: mi cara solo sale mientras hablo.
 - Voz limpia y pareja: que todos los anuncios suenen al mismo volumen.
 - Subtítulos de 2 o 3 palabras, con la palabra clave resaltada.
@@ -170,7 +174,7 @@ Guarda en "LEEME - como se edito.md" todos los pasos y los archivos que usaste, 
 
 **Prompt 5:**
 ```
-Antes de mandármelos, hazme una hoja de cuadros de cada anuncio: el primer y el último cuadro de cada corte, en los dos formatos. Revisa que no quede la palmada, una cara a medio parpadeo ni un subtítulo de la frase anterior. Después hazme copias livianas para verlas en el celular.
+Antes de mandármelos, hazme una hoja de cuadros de cada anuncio: el primer y el último cuadro de cada corte, en los dos formatos. Revisa que no quede el código, una cara a medio parpadeo ni un subtítulo de la frase anterior. Después hazme copias livianas para verlas en el celular.
 ```
 
 **Tú revisas:**
@@ -191,10 +195,11 @@ claude mcp add --transport http meta-ads https://mcp.facebook.com/ads
 ```
 Después, en Claude Code, escribe `/mcp`, escoge *meta-ads* → *Authenticate* e inicia sesión con Facebook. En la pantalla de permisos, **marca todas tus cuentas de anuncios y páginas**: Claude solo ve lo que le autorizas.
 
+**Primero, el plan.** Pon Claude Code en **modo plan** (no en automático) y cuéntale a quién le quieres mostrar los anuncios, en qué ciudad o zona, qué edades, a dónde quieres que llegue la gente y cuánto presupuesto tienes. En modo plan hacen una lluvia de ideas antes de tocar nada, y Claude te propone cómo armar la campaña. Revisa lo que propone: casi siempre la deja bien armada, pero hay cositas que solo tú sabes.
+
 **Prompt 6:**
 ```
 Sube los anuncios aprobados a mi cuenta de Meta [nombre de la cuenta], TODO EN PAUSA:
-
 - Una campaña de [tráfico a mi página / clientes potenciales] con un conjunto de anuncios por guion.
 - Un anuncio por formato: el 9:16 para Reels y Stories, y el 4:5 para el Feed.
 - Escribe el texto y un titular por anuncio, con el botón [Más información] a [mi link]. Enséñamelos antes de subirlos.

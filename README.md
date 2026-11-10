@@ -21,9 +21,9 @@ Es el proceso exacto con el que hicimos los anuncios de **ConstruIA**, la comuni
 | 0 | Lo que necesitas | — |
 | 1 | El guion de piezas | [01](prompts/01-guion-de-piezas.md) |
 | 2 | El teleprompter y el plan de grabación | [02](prompts/02-teleprompter-y-plan.md) |
-| 3 | Grabar con el protocolo | [checklist](plantillas/checklist-de-grabacion.md) |
+| 3 | Grabar con el protocolo (y el teleprompter) | [checklist](plantillas/checklist-de-grabacion.md) |
 | 4 | Encontrar las tomas con Whisper | [03](prompts/03-encontrar-las-tomas.md) |
-| 5 | Armar los anuncios en 9:16 y 4:5 | [04](prompts/04-armar-los-anuncios.md) |
+| 5 | Armar los anuncios en 9:16 y 4:5 con el [modelo de edición](edicion/MODELO-DE-EDICION.md) | [04](prompts/04-armar-los-anuncios.md) |
 | 6 | Revisar antes de subir | [05](prompts/05-revisar.md) |
 | 7 | Subir a Meta en pausa | [06](prompts/06-subir-a-meta-en-pausa.md) |
 | 8 | Medir y mezclar sin volver a grabar | [07](prompts/07-medir.md) · [08](prompts/08-mezclar-el-ganador.md) |
@@ -31,6 +31,7 @@ Es el proceso exacto con el que hicimos los anuncios de **ConstruIA**, la comuni
 ## Qué hay aquí
 - `GUIA.md`: la guía completa.
 - `prompts/`: cada prompt suelto, para copiar y pegar.
+- `edicion/MODELO-DE-EDICION.md`: el modelo de edición que sigue Claude Code.
 - `plantillas/`: el guion de piezas, el teleprompter y el checklist de grabación en blanco.
 - `ejemplo-construia/`: los dos guiones, los teleprompters y la lista de tomas reales de los anuncios de ConstruIA.
 
